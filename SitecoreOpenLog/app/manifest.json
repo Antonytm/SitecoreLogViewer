@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "SitecoreShowLog",
+  "description": "This extension shows latest log Sitecore's log file",
+  "version": "1.0",
+
+  "permissions": [
+	"tabs"
+  ],
+  "plugins": [{"path": "npapi-file-io-32.dll", "public": true}],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
